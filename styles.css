@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 1;
+}
+
+button {
+  margin-top: 150px;
+  border-radius: 8px;
+  padding: 5px 15px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  border-radius: 10px;
+  padding: 2px 8px;
+}
+
+.modal_window {
+  display: none;
+  position: absolute;
+  padding: 100px;
+  background: rgba(76, 175, 80, 1);
+  transition: 4ms;
+  top: 200px;
+  z-index: 10;
+}
+
+.opasity {
+  opacity: 0.5;
+}
+
+.hidden {
+  display: flex;
+}
